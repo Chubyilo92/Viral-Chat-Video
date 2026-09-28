@@ -4,11 +4,12 @@ CoupleIn's DM rage-bait → app → twist short videos for TikTok and Instagram 
 
 **Start here: read [`SPEC.md`](SPEC.md) in full before doing anything.** It's the canonical production spec.
 
-| Folder | What's in it |
+| File | What it is |
 |---|---|
-| `pipeline/` | `build.py` (batch builder), `render.py` (draws DMs, typing, footage, captions, end card), `scenarios.json` (all scripts; `top: true` = the 60 to post) |
-| `filming/` | The owner's filming guide (`.docx`) and the scripts that generate it |
-| `scripts-browser/` | `index.html`, a filterable view of every script |
-| `tools/` | Historical generators and the old avatar-blur renderer (reference only) |
+| `SPEC.md` | The canonical production spec. Read first. |
+| `build.py`, `render.py`, `scenarios.json` | The batch builder, the renderer, and all scripts (`top: true` = the 60 to post) |
+| `CoupleIn_filming_guide.docx` | The owner's filming guide (rebuilt by `plan.py` and `make.js` from `plan.json`) |
+| `index.html` | A filterable view of every script |
+| `scenarios_source_*.py`, `blur_placeholder_render.py` | Historical, reference only |
 
 To start a new weekly batch in a fresh chat: "Read SPEC.md in github.com/Chubyilo92/Viral-Chat-Video and run this week's batch."

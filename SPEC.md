@@ -34,16 +34,16 @@ Inspiration: a Soultie app video that got 624K views on a 668-follower account w
 
 ## 3. The scripts
 
-- `pipeline/scenarios.json` is canonical (108 scripts, V01–V108). **Only the 60 with `"top": true` meet the bar**: that's one month at 2 a day. The other 48 are weaker drafts kept for reference. Never post them.
+- `scenarios.json` is canonical (108 scripts, V01–V108). **Only the 60 with `"top": true` meet the bar**: that's one month at 2 a day. The other 48 are weaker drafts kept for reference. Never post them.
 - The top 60: V01 V03 V09 V14 V19 V22 V24 V25 V33 V34 V43 V44 V61–V108.
 - The fields are id, feature (B Brownies, C Calendar, M Mood, R Resolve, S Score), pov (`him` means Jay is angry, `her` means Ella is angry), hook, fight, clip, in_app, overlay (the captions over the footage), twist, bait, photo, top.
 - In fight and twist, `me` is the angry person (right-hand, sent, purple→blue bubbles) and `them` is the partner (left, grey). `[PHOTO]` is a photo message, and `[screenshot] …` becomes a drawn image or plain text.
-- `tools/scenarios_source_*.py` are the original generators. They're historical only, because later fixes were made directly in the JSON.
-- `scripts-browser/index.html` is a filterable page of all scripts (opens on the top 60).
+- `scenarios_source_*.py` are the original generators. They're historical only, because later fixes were made directly in the JSON.
+- `index.html` is a filterable page of all scripts (opens on the top 60).
 
 ## 4. What the DM screen looks like (Instagram dark mode)
 
-These are implemented in `pipeline/render.py`:
+These are implemented in `render.py`:
 - Black background. Incoming bubbles are #262626 with white text. Sent bubbles use the IG gradient, purple (163,57,235) → (110,72,245) → blue (55,151,240), coloured by screen position.
 - Font: Liberation Sans (Helvetica/SF look), size 45 in bubbles. Rounded bubbles. The partner's small default avatar sits beside the last bubble of each incoming group.
 - Header: 9:41 status bar, back chevron, default avatar, contact name (`ella 🤍` when Jay is angry, `jay 🤍` when Ella is angry), "Active now", phone and video icons.
@@ -83,7 +83,7 @@ Always followed by "Free on iOS & Android" and **"7 days. Uninstall if nothing c
 
 ## 8. Filming (what the owner records)
 
-Full step-by-step guide: `filming/CoupleIn_filming_guide.docx` (rebuild with `cd filming && python3 plan.py && node make.js`).
+Full step-by-step guide: `CoupleIn_filming_guide.docx` (rebuild with `python3 plan.py && node make.js`).
 - A demo couple, **Jay and Ella**, with plain avatars and no real photos. (The first test recording used celebrity avatars, Diddy and 50 Cent, and must never be used in posts.)
 - **Film on the angry person's login.** Exceptions: V44 and V106 are filmed on Jay's login because they show what Jay did.
 - Routine: "hold" means finger off the screen and count to 5. For Calendar and Resolve, go back and count to 2 between items. Tap actions: finger off and count to 3 after.
@@ -95,7 +95,6 @@ Full step-by-step guide: `filming/CoupleIn_filming_guide.docx` (rebuild with `cd
 ## 9. Building
 
 ```
-cd pipeline
 python3 build.py V03 V14 ... --footage FOOTAGE_DIR [--photos PHOTO_DIR] --out out
 ```
 - FOOTAGE_DIR holds per-video clips named `V##.mp4` (cut from the long recordings), or clip-code files (`B-MARK.mp4`, `C-EVENT.mp4`, `M-VIEW.mp4`, `R-FLOW.mp4`…) as fallbacks. Photos go in `PHOTO_DIR/V##.jpg`.
@@ -120,7 +119,10 @@ python3 build.py V03 V14 ... --footage FOOTAGE_DIR [--photos PHOTO_DIR] --out ou
 - 24 Sep: footage-logic audit. Clips must show evidence, never the answer; 23 clips were rewritten.
 - 24 Sep: Resolve has no typing, so it's filmed as full sessions. Calendar events get unique dates and no repeats.
 - 24 Sep: added live typing with keyboard, and awkward comment-bait openers.
-- 28 Sep: all of this moved into this repo as the canonical home.
+- 28 Sep: all of this moved into this repo as the canonical home (flat layout).
+
+## Repo layout
+Everything is flat in the repo root: `SPEC.md`, `README.md`, `build.py`, `render.py`, `scenarios.json`, `index.html` (script browser), `CoupleIn_filming_guide.docx` + `plan.py` + `make.js` + `plan.json` (filming guide), `scenarios_source_*.py` and `blur_placeholder_render.py` (historical).
 
 ## 12. Open items
 

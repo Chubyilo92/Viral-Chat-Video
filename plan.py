@@ -1,5 +1,5 @@
 import json
-S={s['id']:s for s in json.load(open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'..','pipeline','scenarios.json'))) if s['top']}
+S={s['id']:s for s in json.load(open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)),'scenarios.json'))) if s['top']}
 ANGRY=lambda v: "Jay" if S[v]['pov']=="him" else "Ella"
 OTHER=lambda v: "Ella" if S[v]['pov']=="him" else "Jay"
 
