@@ -1,0 +1,3958 @@
+{
+ "videos": [
+  {
+   "id": "V01",
+   "hook": "she said she met someone taller than me 😐",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I met someone 😍"
+    ],
+    [
+     "them",
+     "he's 6'2, never forgets anything and does whatever I ask"
+    ],
+    [
+     "me",
+     "are you being serious rn"
+    ],
+    [
+     "them",
+     "he's literally perfect"
+    ],
+    [
+     "me",
+     "SEND ME HIS NAME"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "babe 😭"
+    ],
+    [
+     "them",
+     "it's the cat"
+    ],
+    [
+     "them",
+     "[PHOTO]"
+    ],
+    [
+     "them",
+     "…but don't stop, you're on a roll"
+    ]
+   ],
+   "overlay": [
+    "so I did her whole wishlist in 4 minutes",
+    "+75 🤎"
+   ],
+   "photo": "cat",
+   "rec": "J1",
+   "idx": 5,
+   "phone": "Jay",
+   "step": "Tap “I did this” on “Foot rub (10 mins)”, then on “Tea without me asking”, then on “Text me at lunch”, one after another. Then finger off, count to 3.",
+   "why": "Jay races through Ella's wishlist to beat 'the 6'2 man'.",
+   "setup": null
+  },
+  {
+   "id": "V03",
+   "hook": "someone sent my girlfriend flowers at work. it wasn't me.",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "someone just sent me flowers at work 💐"
+    ],
+    [
+     "them",
+     "the card says 'you deserve this x'"
+    ],
+    [
+     "me",
+     "that wasn't me"
+    ],
+    [
+     "them",
+     "I know it wasn't you 🙂"
+    ],
+    [
+     "me",
+     "then WHO"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "me. I sent them to myself"
+    ],
+    [
+     "them",
+     "signed from you. the girls think you're amazing now"
+    ],
+    [
+     "them",
+     "you owe me £38 and I'm marking it done 🤎"
+    ]
+   ],
+   "overlay": [
+    "it's been on her list for 4 months. done 0 times."
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Open Brownies → Ella's wishlist. Scroll slowly until “Flowers for no reason 💐 +25” is in the middle of the screen. Take your finger off the screen and count to 5. Don't tap anything.",
+   "why": "Jay is looking at Ella's wishlist. It either shows the evidence or shows him doing her wishlist to win her back.",
+   "setup": null
+  },
+  {
+   "id": "V09",
+   "hook": "she's been paying another man to hold her",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I pay him £45 and he holds me for an hour"
+    ],
+    [
+     "them",
+     "best hour of my week"
+    ],
+    [
+     "me",
+     "WHO"
+    ],
+    [
+     "them",
+     "he's got the strongest hands"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's a massage 😭"
+    ],
+    [
+     "them",
+     "it's a Groupon"
+    ],
+    [
+     "them",
+     "but yours was better tbh"
+    ],
+    [
+     "me",
+     "was it tho"
+    ]
+   ],
+   "overlay": [
+    "I can hold you for FREE"
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 6,
+   "phone": "Jay",
+   "step": "Scroll until “Back rub, 10 mins 💆‍♀️ +25” is in the middle of the screen. Finger off, count to 2. Tap “I did this”. Finger off, count to 3.",
+   "why": "Ella pays a man £45 to hold her, so Jay does her back rub himself: 'I can hold you for free'.",
+   "setup": null
+  },
+  {
+   "id": "V14",
+   "hook": "why is there a 'Sarah 🌸 7pm' in our shared calendar",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "who is Sarah"
+    ],
+    [
+     "me",
+     "and why is she in OUR calendar"
+    ],
+    [
+     "them",
+     "it's nothing"
+    ],
+    [
+     "me",
+     "7pm Thursday with a flower emoji?"
+    ],
+    [
+     "them",
+     "she's very important to me ok"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Sarah is the dog 😭"
+    ],
+    [
+     "them",
+     "it's her grooming appointment"
+    ],
+    [
+     "them",
+     "'don't tell her' because she hates the groomer"
+    ],
+    [
+     "me",
+     "who names a dog Sarah"
+    ]
+   ],
+   "overlay": [
+    "'don't tell her' 🙂"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Thu 1 Oct. Tap Jay's event “Sarah 🌸” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Sarah 🌸",
+    "Thu 1 Oct, 7:00pm",
+    "does not repeat",
+    "don't tell her"
+   ]
+  },
+  {
+   "id": "V19",
+   "hook": "he's going to his ex's wedding. it's in our calendar.",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "'Ex's wedding 💍 Sat'???"
+    ],
+    [
+     "me",
+     "you're GOING?"
+    ],
+    [
+     "them",
+     "I have to"
+    ],
+    [
+     "me",
+     "you don't HAVE to do anything"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "I'm the photographer 😭"
+    ],
+    [
+     "them",
+     "she's paying £900"
+    ],
+    [
+     "them",
+     "that's Tenerife babe"
+    ],
+    [
+     "me",
+     "…get her good angles"
+    ]
+   ],
+   "overlay": [
+    "£900??"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 2,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Sat 3 Oct. Tap Jay's event “Ex's wedding 💍” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Ex's wedding 💍",
+    "Sat 3 Oct, all day",
+    "does not repeat",
+    "£900 🤝"
+   ]
+  },
+  {
+   "id": "V22",
+   "hook": "her ex Ryan booked her flights to Malaga. again.",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why did you get an email from Ryan at 1am"
+    ],
+    [
+     "me",
+     "the SAME Ryan who took you to Malaga last year?"
+    ],
+    [
+     "them",
+     "it's not what you think"
+    ],
+    [
+     "me",
+     "it's exactly what I think"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Ryanair babe 😭"
+    ],
+    [
+     "them",
+     "it's for us"
+    ],
+    [
+     "them",
+     "and yes, Malaga again. the hotel was that good"
+    ]
+   ],
+   "overlay": [
+    "then this appeared in OUR calendar"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Mon 12 Oct. Tap Ella's event “Malaga ☀️” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Malaga ☀️",
+    "Mon 12 Oct to Thu 15 Oct, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V24",
+   "hook": "he set a REMINDER to make me feel special",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "'Make her feel special 🙂 Thu 6pm'??"
+    ],
+    [
+     "me",
+     "you need a REMINDER??"
+    ],
+    [
+     "them",
+     "yes"
+    ],
+    [
+     "me",
+     "so none of it is real"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the Thursday flowers?"
+    ],
+    [
+     "them",
+     "the Thursday takeaways?"
+    ],
+    [
+     "them",
+     "all the reminder"
+    ],
+    [
+     "me",
+     "…ok they were really good Thursdays"
+    ]
+   ],
+   "overlay": [
+    "every Thursday for 6 months"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 3,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Thu 8 Oct. Tap Jay's event “Make her feel special 🙂” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Make her feel special 🙂",
+    "Thu 8 Oct, 6:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V25",
+   "hook": "she put 'Leave him' in her calendar at 5:30 every day",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why does your calendar say 'Leave him' at 5:30"
+    ],
+    [
+     "them",
+     "yes"
+    ],
+    [
+     "me",
+     "today??"
+    ],
+    [
+     "them",
+     "every day"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "leave him ALONE"
+    ],
+    [
+     "them",
+     "your 30 mins after work"
+    ],
+    [
+     "them",
+     "you said you need it"
+    ],
+    [
+     "me",
+     "…I'd marry you but you'd put it in the calendar"
+    ]
+   ],
+   "overlay": [
+    "then I opened it"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 2,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Mon 28 Sep. First hold 3 seconds on the day list showing “Leave him” at 5:30. Then tap it open so the note “…alone for 30 mins when he gets in from work 🫡” shows. Hold 5 seconds. Go back. Count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Leave him",
+    "Mon 28 Sep, 5:30pm to 6:00pm",
+    "does not repeat",
+    "…alone for 30 mins when he gets in from work 🫡"
+   ]
+  },
+  {
+   "id": "V33",
+   "hook": "she set her mood to 'in love' while I'm at work",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "who are you in love with right now"
+    ],
+    [
+     "me",
+     "I'm at work"
+    ],
+    [
+     "them",
+     "don't worry about it"
+    ],
+    [
+     "them",
+     "he's warm, he's flaky, he's always there for me"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "[PHOTO]"
+    ],
+    [
+     "them",
+     "£1.35 and never lets me down"
+    ],
+    [
+     "me",
+     "you set a MOOD for a sausage roll"
+    ]
+   ],
+   "overlay": [
+    "warm. flaky. always there."
+   ],
+   "photo": "sausage roll",
+   "rec": "J3",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "FIRST, on Ella's login, set her mood to “In love 😍”. THEN on Jay's login: open Mood, show Ella's mood “In love 😍” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)",
+   "why": "Ella's mood is the evidence Jay sees on his phone. It makes the fight feel real, but the reason only comes out in the twist.",
+   "setup": null
+  },
+  {
+   "id": "V34",
+   "hook": "her mood says 'betrayed' and I know exactly why",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I know what you did last night"
+    ],
+    [
+     "me",
+     "what did I do"
+    ],
+    [
+     "them",
+     "you were with HER"
+    ],
+    [
+     "me",
+     "WITH WHO"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "you finished Love Island without me"
+    ],
+    [
+     "them",
+     "I saw 'continue watching: final'"
+    ],
+    [
+     "me",
+     "…I was going to act surprised"
+    ]
+   ],
+   "overlay": [
+    "betrayed??"
+   ],
+   "photo": null,
+   "rec": "J3",
+   "idx": 2,
+   "phone": "Jay",
+   "step": "FIRST, on Ella's login, set her mood to “Betrayed”. THEN on Jay's login: open Mood, show Ella's mood “Betrayed” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)",
+   "why": "Ella's mood is the evidence Jay sees on his phone. It makes the fight feel real, but the reason only comes out in the twist.",
+   "setup": null
+  },
+  {
+   "id": "V43",
+   "hook": "he told me I'm 'just like his mum'",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "them",
+     "you're just like my mum"
+    ],
+    [
+     "me",
+     "excuse me??"
+    ],
+    [
+     "me",
+     "say that again"
+    ],
+    [
+     "them",
+     "it was a compliment"
+    ],
+    [
+     "me",
+     "it was NOT"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "she ran a business, raised 4 kids and never forgot a birthday"
+    ],
+    [
+     "them",
+     "that's the highest thing I can say"
+    ],
+    [
+     "me",
+     "…I'll allow it"
+    ]
+   ],
+   "overlay": [
+    "the app made him explain himself"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V44",
+   "hook": "he asked an APP how to talk to me",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "you asked an APP how to deal with me?"
+    ],
+    [
+     "them",
+     "it's not like that"
+    ],
+    [
+     "me",
+     "I saw your screen"
+    ],
+    [
+     "them",
+     "ok it's like that"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it told me to say sorry first"
+    ],
+    [
+     "them",
+     "so… sorry"
+    ],
+    [
+     "them",
+     "and that you were right about the thing"
+    ],
+    [
+     "me",
+     "I'm framing that screen"
+    ]
+   ],
+   "overlay": [
+    "this is what he was doing"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "This is what Ella caught Jay doing: using Resolve to work out how to talk to her. So it comes from Jay's session.",
+   "setup": null
+  },
+  {
+   "id": "V61",
+   "hook": "her mood says 'guilty' and then she told me she kissed someone",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why is your mood guilty 😬"
+    ],
+    [
+     "them",
+     "I kissed someone today"
+    ],
+    [
+     "me",
+     "you WHAT"
+    ],
+    [
+     "them",
+     "he was so small and cute"
+    ],
+    [
+     "them",
+     "and he's got your nose"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "my sister had the baby 😭"
+    ],
+    [
+     "them",
+     "4 months old. he's called Leo"
+    ],
+    [
+     "me",
+     "why has he got MY nose"
+    ],
+    [
+     "them",
+     "that's what I'm asking you"
+    ]
+   ],
+   "overlay": [
+    "'he's got your nose' ??"
+   ],
+   "photo": null,
+   "rec": "J3",
+   "idx": 3,
+   "phone": "Jay",
+   "step": "FIRST, on Ella's login, set her mood to “Guilty”. THEN on Jay's login: open Mood, show Ella's mood “Guilty” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)",
+   "why": "Ella's mood is the evidence Jay sees on his phone. It makes the fight feel real, but the reason only comes out in the twist.",
+   "setup": null
+  },
+  {
+   "id": "V62",
+   "hook": "my girlfriend put a 'hall pass' on her wishlist",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why is 'hall pass 🎫' on your wishlist"
+    ],
+    [
+     "me",
+     "100 brownies??"
+    ],
+    [
+     "them",
+     "one night. no questions asked"
+    ],
+    [
+     "them",
+     "I've earned it"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "a pass on the HALL"
+    ],
+    [
+     "them",
+     "you hoover the hallway for once"
+    ],
+    [
+     "them",
+     "and I don't ask why it took 2 years"
+    ],
+    [
+     "me",
+     "'no questions asked' 💀"
+    ]
+   ],
+   "overlay": [
+    "one night. no questions."
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 2,
+   "phone": "Jay",
+   "step": "Keep scrolling until “Hall pass 🎫 +100” is in the middle of the screen. Finger off, count to 5.",
+   "why": "Jay is looking at Ella's wishlist. It either shows the evidence or shows him doing her wishlist to win her back.",
+   "setup": null
+  },
+  {
+   "id": "V63",
+   "hook": "she sent our argument to her group chat",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why did Chloe just message me 'you're so wrong'"
+    ],
+    [
+     "them",
+     "…"
+    ],
+    [
+     "me",
+     "did you screenshot our argument"
+    ],
+    [
+     "them",
+     "they needed context"
+    ],
+    [
+     "me",
+     "ALL 9 OF THEM??"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "update"
+    ],
+    [
+     "them",
+     "I showed them your side from the app"
+    ],
+    [
+     "them",
+     "they said you're right"
+    ],
+    [
+     "them",
+     "I've been removed from the group"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve instead of 9 women"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V64",
+   "hook": "my ex is coming to Sunday dinner. my MUM invited him.",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why is 'Sunday dinner 🍗 + Liam' in the family calendar"
+    ],
+    [
+     "them",
+     "your mum added it"
+    ],
+    [
+     "me",
+     "LIAM?? my EX Liam??"
+    ],
+    [
+     "them",
+     "she says he's been 'so lovely to her'"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "babe"
+    ],
+    [
+     "them",
+     "your mum's dating Liam"
+    ],
+    [
+     "them",
+     "he's her plus one"
+    ],
+    [
+     "me",
+     "I'm not going"
+    ],
+    [
+     "them",
+     "I'm going. I need to see this"
+    ]
+   ],
+   "overlay": [
+    "'so lovely to her' 😐"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 4,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Sun 4 Oct. Tap Jay's event “Sunday dinner 🍗 + Liam” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Sunday dinner 🍗 + Liam",
+    "Sun 4 Oct, 1:00pm",
+    "does not repeat",
+    "Added by Mum"
+   ]
+  },
+  {
+   "id": "V65",
+   "hook": "her mood's been 'annoyed' for 3 days so I confessed everything",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "ok you've been annoyed for 3 days"
+    ],
+    [
+     "me",
+     "I'm sorry about the car"
+    ],
+    [
+     "me",
+     "and the £60 on FIFA points"
+    ],
+    [
+     "me",
+     "and I told your sister about the thing"
+    ],
+    [
+     "them",
+     "…what thing"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "I forgot to change my mood 😭"
+    ],
+    [
+     "them",
+     "I was annoyed at the Wi-Fi on Monday"
+    ],
+    [
+     "them",
+     "but now tell me about the car"
+    ],
+    [
+     "them",
+     "and the THING"
+    ]
+   ],
+   "overlay": [
+    "3 days of 'annoyed'"
+   ],
+   "photo": null,
+   "rec": "J3",
+   "idx": 4,
+   "phone": "Jay",
+   "step": "FIRST, on Ella's login, set her mood to “Annoyed”. THEN on Jay's login: open Mood, show Ella's mood “Annoyed” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)",
+   "why": "Ella's mood is the evidence Jay sees on his phone. It makes the fight feel real, but the reason only comes out in the twist.",
+   "setup": null
+  },
+  {
+   "id": "V66",
+   "hook": "she's saved me as 'Mistake' in her phone",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why am I saved as 'Mistake' in your phone"
+    ],
+    [
+     "them",
+     "because you are one"
+    ],
+    [
+     "me",
+     "after 2 years??"
+    ],
+    [
+     "them",
+     "my biggest mistake"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "open the contact properly"
+    ],
+    [
+     "them",
+     "it says 'Mistake I'd make again ❤️'"
+    ],
+    [
+     "them",
+     "it gets cut off"
+    ],
+    [
+     "me",
+     "…I've just done 3 things off your list"
+    ],
+    [
+     "them",
+     "keep going 🙂"
+    ]
+   ],
+   "overlay": [
+    "fine. I'll earn my name back."
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 7,
+   "phone": "Jay",
+   "step": "Tap “I did this” on “Bring the washing in”, then “Plan a date night”, then “Hug when I get home”. Then finger off, count to 3.",
+   "why": "She's saved him as 'Mistake', so he's earning his name back one item at a time.",
+   "setup": null
+  },
+  {
+   "id": "V67",
+   "hook": "his calendar has a rotation. Monday Jess. Wednesday Priya. Friday Chloe.",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "what is this"
+    ],
+    [
+     "me",
+     "Mon Jess 📞 Wed Priya 📞 Fri Chloe 📞"
+    ],
+    [
+     "them",
+     "my rotation"
+    ],
+    [
+     "me",
+     "YOUR ROTATION??"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "my sisters 😭"
+    ],
+    [
+     "them",
+     "you said I never call my family"
+    ],
+    [
+     "them",
+     "so I scheduled it"
+    ],
+    [
+     "me",
+     "why did you call it a ROTATION"
+    ]
+   ],
+   "overlay": [
+    "he called it a rotation."
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 5,
+   "phone": "Ella",
+   "step": "Open Calendar in WEEK view for the week of Mon 19 Oct, so Monday “Jess 📞”, Wednesday “Priya 📞” and Friday “Chloe 📞” are all visible at once. Finger off, count to 5. Count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Jess 📞 / Priya 📞 / Chloe 📞 (three separate events)",
+    "Jess: Mon 19 Oct 7pm · Priya: Wed 21 Oct 7pm · Chloe: Fri 23 Oct 7pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V68",
+   "hook": "he's been sleeping at 'Sophie's' twice a week",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "them",
+     "staying at Sophie's tonight x"
+    ],
+    [
+     "me",
+     "who is Sophie"
+    ],
+    [
+     "them",
+     "I told you, I stay there when you're like this"
+    ],
+    [
+     "me",
+     "LIKE WHAT"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "SOFA'S"
+    ],
+    [
+     "them",
+     "autocorrect 😭"
+    ],
+    [
+     "them",
+     "I sleep on the sofa when you snore"
+    ],
+    [
+     "me",
+     "I don't snore"
+    ],
+    [
+     "them",
+     "you're doing it right now"
+    ]
+   ],
+   "overlay": [
+    "'when you're like this'"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V69",
+   "hook": "she's been swiping every night and she's 'found the one'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I've been swiping every night for weeks"
+    ],
+    [
+     "them",
+     "and I think I've found the one"
+    ],
+    [
+     "them",
+     "he's got a massive garden and a double garage"
+    ],
+    [
+     "me",
+     "are you on TINDER??"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Rightmove babe 😭"
+    ],
+    [
+     "them",
+     "3 bed, Kent"
+    ],
+    [
+     "them",
+     "massive garden"
+    ],
+    [
+     "me",
+     "it's 20 foot"
+    ],
+    [
+     "them",
+     "MASSIVE."
+    ]
+   ],
+   "overlay": [
+    "and then she put THIS in our calendar"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 3,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Sat 10 Oct. Tap Ella's event “Meeting him 😍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Meeting him 😍",
+    "Sat 10 Oct, 11:00am",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V70",
+   "hook": "he's got a secret savings pot called 'Her 💍'",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why have you got a savings pot called 'Her 💍'"
+    ],
+    [
+     "them",
+     "don't look at that"
+    ],
+    [
+     "me",
+     "WHO IS HER"
+    ],
+    [
+     "them",
+     "you'll find out"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's you, obviously"
+    ],
+    [
+     "them",
+     "I've been saving for 3 years"
+    ],
+    [
+     "me",
+     "show me"
+    ],
+    [
+     "them",
+     "[screenshot] £47.12"
+    ],
+    [
+     "me",
+     "IN THREE YEARS??"
+    ]
+   ],
+   "overlay": [
+    "it's been on MY list for 3 years. done 0 times."
+   ],
+   "photo": null,
+   "rec": "E1",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Open Brownies → My wishlist (Ella's own). Scroll until “The ring 💍 +1000” is in the middle of the screen. Finger off, count to 5. Stop recording.",
+   "why": "Ella checks her own wishlist: the ring has been on it for 3 years and never done. It makes her angrier, and the £47.12 twist lands harder.",
+   "setup": null
+  },
+  {
+   "id": "V71",
+   "hook": "he's been sending 'my queen 👑' £50 every month",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "who is 'my queen 👑' and why do you pay her £50 a month"
+    ],
+    [
+     "them",
+     "she needs it"
+    ],
+    [
+     "me",
+     "she NEEDS it??"
+    ],
+    [
+     "them",
+     "she's been there for me longer than you"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "my mum 😭"
+    ],
+    [
+     "them",
+     "it's her bingo money"
+    ],
+    [
+     "me",
+     "why is your mum saved as 'my queen'"
+    ],
+    [
+     "them",
+     "why is yours saved as 'Sandra'"
+    ]
+   ],
+   "overlay": [
+    "'longer than you' 😐"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 6,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Sun 1 Nov. Tap Jay's event “Send £50 to my queen 👑” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Send £50 to my queen 👑",
+    "Sun 1 Nov, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V72",
+   "hook": "he called me by another woman's name",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "who is Chloe"
+    ],
+    [
+     "them",
+     "what"
+    ],
+    [
+     "me",
+     "you just said 'I love you Chloe'"
+    ],
+    [
+     "me",
+     "out LOUD"
+    ],
+    [
+     "them",
+     "I can explain"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the sat nav"
+    ],
+    [
+     "them",
+     "I named it Chloe"
+    ],
+    [
+     "them",
+     "she got me home in 12 mins"
+    ],
+    [
+     "me",
+     "why do you love the SAT NAV"
+    ],
+    [
+     "them",
+     "she's never told me I'm going the wrong way"
+    ]
+   ],
+   "overlay": [
+    "out. loud."
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V73",
+   "hook": "he's meeting my DAD behind my back",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why is 'Ask her dad ☕ Sun 2pm' in your calendar"
+    ],
+    [
+     "them",
+     "it's a guy thing"
+    ],
+    [
+     "me",
+     "ask my dad WHAT"
+    ],
+    [
+     "them",
+     "just let me do this one thing"
+    ]
+   ],
+   "twist": [
+    [
+     "me",
+     "wait"
+    ],
+    [
+     "me",
+     "WAIT"
+    ],
+    [
+     "them",
+     "act surprised on Friday"
+    ],
+    [
+     "me",
+     "I'm literally shaking"
+    ]
+   ],
+   "overlay": [
+    "ask my dad WHAT 👀"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 7,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Sun 11 Oct. Tap Jay's event “Ask her dad ☕” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Ask her dad ☕",
+    "Sun 11 Oct, 2:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V74",
+   "hook": "she's got a man saved as 'DO NOT ANSWER'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "who is 'DO NOT ANSWER'"
+    ],
+    [
+     "me",
+     "he called you 14 times last Saturday"
+    ],
+    [
+     "them",
+     "he's a nightmare"
+    ],
+    [
+     "them",
+     "every weekend"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's YOU 😭"
+    ],
+    [
+     "them",
+     "I rename you 'DO NOT ANSWER' every Saturday night"
+    ],
+    [
+     "them",
+     "you call 14 times to say you love me"
+    ],
+    [
+     "them",
+     "I change it back on Sunday"
+    ],
+    [
+     "me",
+     "…that's actually sweet"
+    ]
+   ],
+   "overlay": [
+    "last Saturday… I was out with the lads"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 4,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Sat 19 Sep. Tap your own event “Lads' night 🍻”. Finger off, count to 5. Go back. Count to 2 before the next one.",
+   "why": "Jay checks his own calendar: last Saturday he was out with the lads. That quietly plants the twist (the 14 calls were him).",
+   "setup": [
+    "Jay",
+    "Lads' night 🍻",
+    "Sat 19 Sep, 7:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V75",
+   "hook": "she's in a group chat called 'Exit Plan 🚪' with my mates",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why are you in a group chat called 'Exit Plan 🚪'"
+    ],
+    [
+     "me",
+     "with MY mates"
+    ],
+    [
+     "them",
+     "we've been planning for 3 months"
+    ],
+    [
+     "them",
+     "how to get you out"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's an ESCAPE ROOM"
+    ],
+    [
+     "them",
+     "for your birthday"
+    ],
+    [
+     "them",
+     "the 'exit plan' is how to get you out"
+    ],
+    [
+     "them",
+     "you have 60 mins and you're useless at puzzles"
+    ]
+   ],
+   "overlay": [
+    "it's in the calendar. with my BOYS."
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 5,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Sat 17 Oct. Tap Ella's event “Exit plan 🚪” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Exit plan 🚪",
+    "Sat 17 Oct, 2:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V76",
+   "hook": "he spent the night with Lenny and says the bed was better than ours",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "them",
+     "spent the night with Lenny 🌙"
+    ],
+    [
+     "them",
+     "honestly the comfiest night I've had in months"
+    ],
+    [
+     "them",
+     "better than our bed"
+    ],
+    [
+     "me",
+     "WHO IS LENNY"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Premier Inn 😭"
+    ],
+    [
+     "them",
+     "Lenny's the moon"
+    ],
+    [
+     "them",
+     "you forgot my work trip"
+    ],
+    [
+     "them",
+     "it's in the calendar"
+    ]
+   ],
+   "overlay": [
+    "he put him in the CALENDAR"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 8,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Tue 29 Sep. Tap Jay's event “Lenny 🌙” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Lenny 🌙",
+    "Tue 29 Sep, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V77",
+   "hook": "she said my best mate is a better man than me",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "honestly Tom is a better man than you"
+    ],
+    [
+     "me",
+     "say that again"
+    ],
+    [
+     "them",
+     "he's attentive, he remembers everything"
+    ],
+    [
+     "them",
+     "Sophie is so lucky"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Tom has the app"
+    ],
+    [
+     "them",
+     "Sophie showed me his score"
+    ],
+    [
+     "them",
+     "he's on 1,200"
+    ],
+    [
+     "me",
+     "TOM'S BEEN CHEATING THE GAME"
+    ]
+   ],
+   "overlay": [
+    "competing with my own best mate now"
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 8,
+   "phone": "Jay",
+   "step": "Tap “I did this” on “Take the bins out”, then “Cook dinner Friday”, then “Fill my car up”. Then finger off, count to 3. Stop recording.",
+   "why": "She says his best mate is a better man, so he competes on her wishlist.",
+   "setup": null
+  },
+  {
+   "id": "V78",
+   "hook": "he checks my phone every single night",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why do you go through my phone every night"
+    ],
+    [
+     "them",
+     "I'm not going through it"
+    ],
+    [
+     "me",
+     "I watched you do it"
+    ],
+    [
+     "them",
+     "I only check one thing"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "screen time"
+    ],
+    [
+     "them",
+     "6 hours of TikTok"
+    ],
+    [
+     "them",
+     "11 minutes texting me"
+    ],
+    [
+     "me",
+     "…"
+    ],
+    [
+     "them",
+     "I'm not jealous of a man. I'm jealous of a For You page"
+    ]
+   ],
+   "overlay": [
+    "'one thing' 😐"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V79",
+   "hook": "she texted her ex 'I miss it so much 🥺'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why did you text Josh 'I miss it so much 🥺'"
+    ],
+    [
+     "them",
+     "because I do"
+    ],
+    [
+     "me",
+     "you text your EX??"
+    ],
+    [
+     "them",
+     "nobody does it like his family"
+    ],
+    [
+     "me",
+     "does WHAT like his family"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the roast potatoes 😭"
+    ],
+    [
+     "them",
+     "his mum's roasties"
+    ],
+    [
+     "them",
+     "I still go round every other Sunday"
+    ],
+    [
+     "me",
+     "you still see his MUM??"
+    ]
+   ],
+   "overlay": [
+    "every other Sunday. with HIS family."
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 6,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Sun 18 Oct. Tap Ella's event “Josh's family 🏠” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Josh's family 🏠",
+    "Sun 18 Oct, 1:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V80",
+   "hook": "she voice-noted another man at 2am: 'I need you'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why did you voice note Ali at 2am"
+    ],
+    [
+     "me",
+     "'I need you. now.'"
+    ],
+    [
+     "them",
+     "he's the only one who's there for me at 2am"
+    ],
+    [
+     "them",
+     "and he knows exactly how I like it"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Ali's Kebabs 😭"
+    ],
+    [
+     "them",
+     "open till 4"
+    ],
+    [
+     "them",
+     "extra garlic mayo, no onions"
+    ],
+    [
+     "me",
+     "I'll learn the order"
+    ],
+    [
+     "them",
+     "you'll never be Ali"
+    ]
+   ],
+   "overlay": [
+    "every Friday and Saturday. 2am."
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 7,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Fri 2 Oct. Tap Ella's event “Ali 🌙” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Ali 🌙",
+    "Fri 2 Oct, 2:00am",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V81",
+   "hook": "my girlfriend's been secretly seeing my ex every 6 weeks",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why is 'Megan 🤍 Sat 10am' in your calendar"
+    ],
+    [
+     "me",
+     "MY Megan??"
+    ],
+    [
+     "them",
+     "she's the only one who knows what I like"
+    ],
+    [
+     "them",
+     "I'm not giving her up"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "she does my hair 😭"
+    ],
+    [
+     "them",
+     "best balayage in Kent"
+    ],
+    [
+     "them",
+     "she charges me less since you dumped her"
+    ],
+    [
+     "me",
+     "she gives you a DISCOUNT??"
+    ]
+   ],
+   "overlay": [
+    "every 6 weeks. for a YEAR."
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 8,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Sat 24 Oct. Tap Ella's event “Megan 🤍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Megan 🤍",
+    "Sat 24 Oct, 10:00am",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V82",
+   "hook": "'Babe 💕' is on his PlayStation every night till 2am",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "who is 'Babe 💕' on your PlayStation"
+    ],
+    [
+     "me",
+     "every night. till 2am"
+    ],
+    [
+     "them",
+     "she's the only one who gets me"
+    ],
+    [
+     "me",
+     "SHE??"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's Dave 😭"
+    ],
+    [
+     "them",
+     "we've called each other babe since Year 9"
+    ],
+    [
+     "me",
+     "you said SHE"
+    ],
+    [
+     "them",
+     "I panicked"
+    ],
+    [
+     "them",
+     "Dave says hi babe"
+    ]
+   ],
+   "overlay": [
+    "it's in his CALENDAR"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 9,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Wed 7 Oct. Tap Jay's event “Babe 💕🎮” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Babe 💕🎮",
+    "Wed 7 Oct, 10:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V83",
+   "hook": "there's a ring in his drawer and it's too big for me",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why is there a ring in your drawer"
+    ],
+    [
+     "me",
+     "it's too big for me"
+    ],
+    [
+     "me",
+     "so who is it for"
+    ],
+    [
+     "them",
+     "someone very special"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "me 😭"
+    ],
+    [
+     "them",
+     "it's a smart ring"
+    ],
+    [
+     "them",
+     "it tracks my sleep"
+    ],
+    [
+     "me",
+     "I've told my mum"
+    ]
+   ],
+   "overlay": [
+    "too big. for me."
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 10,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Fri 9 Oct. Tap Jay's event “Collect ring 💍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Collect ring 💍",
+    "Fri 9 Oct, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V84",
+   "hook": "his ex has been using our Netflix for 3 years",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why is there a profile called 'Chantelle 🌸' on our Netflix"
+    ],
+    [
+     "them",
+     "she's always been there"
+    ],
+    [
+     "me",
+     "3 YEARS??"
+    ],
+    [
+     "them",
+     "I didn't know how to kick her off"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "update"
+    ],
+    [
+     "them",
+     "I changed it"
+    ],
+    [
+     "them",
+     "she messaged me asking for the new one"
+    ],
+    [
+     "me",
+     "and??"
+    ],
+    [
+     "them",
+     "I gave her yours"
+    ]
+   ],
+   "overlay": [
+    "she's on season 4 of OUR show"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 14,
+   "phone": "Ella",
+   "step": "Tap + to add a new event. Type “Change Netflix password 🔒 TONIGHT”, set it for today (the day you record) at 9:00pm, and save. Finger off, count to 5 on the saved event. Stop recording.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": null
+  },
+  {
+   "id": "V85",
+   "hook": "her 'work husband' is taking her to lunch",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "can't talk, lunch with my work husband 🍝"
+    ],
+    [
+     "me",
+     "your WHAT"
+    ],
+    [
+     "them",
+     "he's been there for me through everything"
+    ],
+    [
+     "me",
+     "I'm your actual husband"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's Carol 😭"
+    ],
+    [
+     "them",
+     "she's 63"
+    ],
+    [
+     "them",
+     "she brings biscuits and hates everyone except me"
+    ],
+    [
+     "me",
+     "Carol can have you"
+    ]
+   ],
+   "overlay": [
+    "'work husband' 🙂"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 9,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Tue 6 Oct. Tap Ella's event “Lunch w/ work husband 🍝” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Lunch w/ work husband 🍝",
+    "Tue 6 Oct, 1:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V86",
+   "hook": "he's slept with his phone face down every night since March",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why is your phone always face down"
+    ],
+    [
+     "me",
+     "every night since March"
+    ],
+    [
+     "them",
+     "you know why"
+    ],
+    [
+     "me",
+     "no I DON'T"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the light wakes you up"
+    ],
+    [
+     "them",
+     "you added it to your wishlist"
+    ],
+    [
+     "them",
+     "I've done it 180 times"
+    ],
+    [
+     "me",
+     "…I forgot I asked"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V87",
+   "hook": "he's been going to a woman's house every Tuesday for 3 months",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "who is 'Linda 🤍 Tue 6pm'"
+    ],
+    [
+     "them",
+     "she's patient with me"
+    ],
+    [
+     "them",
+     "she said I'm the best she's ever had"
+    ],
+    [
+     "me",
+     "EXCUSE ME??"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "driving lessons 😭"
+    ],
+    [
+     "them",
+     "she said best student"
+    ],
+    [
+     "them",
+     "I'm 31 and I wanted to drive you on dates"
+    ],
+    [
+     "me",
+     "you told me you had a licence??"
+    ]
+   ],
+   "overlay": [
+    "every Tuesday. for 3 months."
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 11,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Tue 20 Oct. Tap Jay's event “Linda 🤍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Linda 🤍",
+    "Tue 20 Oct, 6:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V88",
+   "hook": "my girlfriend paid a man £200 to follow me",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why is there a £200 payment to 'Discreet Investigations'"
+    ],
+    [
+     "them",
+     "I needed to know"
+    ],
+    [
+     "me",
+     "you had me FOLLOWED??"
+    ],
+    [
+     "them",
+     "every Saturday you disappear"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the report came back"
+    ],
+    [
+     "them",
+     "'subject visits Greggs 3 times'"
+    ],
+    [
+     "them",
+     "'watches dog videos in the car and cries'"
+    ],
+    [
+     "them",
+     "I've never loved you more"
+    ],
+    [
+     "me",
+     "that was PRIVATE"
+    ]
+   ],
+   "overlay": [
+    "she hired a PRIVATE INVESTIGATOR"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V89",
+   "hook": "my girlfriend's been married to another man for 2 years",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I need to tell you something"
+    ],
+    [
+     "them",
+     "I've been married for 2 years"
+    ],
+    [
+     "them",
+     "we have 2 kids"
+    ],
+    [
+     "me",
+     "WHAT"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "in Stardew Valley 😭"
+    ],
+    [
+     "them",
+     "his name's Sebastian"
+    ],
+    [
+     "them",
+     "he's emo and he's always there"
+    ],
+    [
+     "me",
+     "divorce him"
+    ],
+    [
+     "them",
+     "never"
+    ]
+   ],
+   "overlay": [
+    "opened Resolve with shaking hands"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V90",
+   "hook": "he's been lying about going to the gym",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "you said gym Tuesday and Thursday"
+    ],
+    [
+     "me",
+     "your gym bag hasn't been opened in 2 months"
+    ],
+    [
+     "them",
+     "…"
+    ],
+    [
+     "me",
+     "WHERE ARE YOU GOING"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "cooking class 😭"
+    ],
+    [
+     "them",
+     "I wanted to make your mum's jollof"
+    ],
+    [
+     "them",
+     "so she stops looking at me like that"
+    ],
+    [
+     "me",
+     "…is it Nigerian or Ghanaian"
+    ]
+   ],
+   "overlay": [
+    "'gym' 🙂"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 12,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Tue 27 Oct. Tap Jay's event “Gym 💪” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Gym 💪",
+    "Tue 27 Oct, 7:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V91",
+   "hook": "she said I'm her 'second choice'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "you know you were my second choice"
+    ],
+    [
+     "me",
+     "what"
+    ],
+    [
+     "them",
+     "it's fine, the first one said no"
+    ],
+    [
+     "me",
+     "WHO WAS FIRST"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "your brother 😭"
+    ],
+    [
+     "them",
+     "uni. 2019"
+    ],
+    [
+     "them",
+     "he said no. then I met you"
+    ],
+    [
+     "me",
+     "CHRISTMAS IS GOING TO BE AWKWARD"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve before I lost my mind"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V92",
+   "hook": "she changed her passcode and won't tell me what it is",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why did you change your passcode"
+    ],
+    [
+     "them",
+     "because you'll never guess it"
+    ],
+    [
+     "me",
+     "what are you hiding??"
+    ],
+    [
+     "them",
+     "nothing you'd remember"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's our anniversary"
+    ],
+    [
+     "them",
+     "you tried 14 times"
+    ],
+    [
+     "them",
+     "every one wrong"
+    ],
+    [
+     "me",
+     "…it's in the calendar isn't it"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V93",
+   "hook": "someone's been in our flat while we're at work",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "someone's been in our flat"
+    ],
+    [
+     "me",
+     "the bed's made and the towels are folded like a hotel"
+    ],
+    [
+     "them",
+     "…"
+    ],
+    [
+     "me",
+     "who has a KEY"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "my mum 😭"
+    ],
+    [
+     "them",
+     "she's had a key since we moved in"
+    ],
+    [
+     "them",
+     "she ironed my pants"
+    ],
+    [
+     "me",
+     "SHE IRONED YOUR PANTS"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V94",
+   "hook": "I found a receipt: dinner for two on the night he 'worked late'",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "receipt from Friday. table for 2"
+    ],
+    [
+     "me",
+     "2 mains. 2 desserts. 2 cocktails"
+    ],
+    [
+     "me",
+     "you said you were working late"
+    ],
+    [
+     "them",
+     "I was hungry"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it was just me 😭"
+    ],
+    [
+     "them",
+     "it was 2-for-1"
+    ],
+    [
+     "them",
+     "I wasn't wasting half a deal"
+    ],
+    [
+     "me",
+     "you ATE BOTH"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V95",
+   "hook": "she's not speaking to me because of what I did in her dream",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I'm not talking to you today"
+    ],
+    [
+     "me",
+     "why"
+    ],
+    [
+     "them",
+     "you know what you did"
+    ],
+    [
+     "me",
+     "I've been ASLEEP"
+    ],
+    [
+     "them",
+     "exactly"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "you kissed my cousin"
+    ],
+    [
+     "them",
+     "in my dream"
+    ],
+    [
+     "them",
+     "and you didn't even say sorry"
+    ],
+    [
+     "me",
+     "it wasn't REAL"
+    ],
+    [
+     "them",
+     "it felt real"
+    ]
+   ],
+   "overlay": [
+    "Resolve made ME listen first 😐"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V96",
+   "hook": "she changed her surname on Facebook and it's not mine",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why is your surname different on Facebook"
+    ],
+    [
+     "them",
+     "I changed it"
+    ],
+    [
+     "me",
+     "to WHOSE"
+    ],
+    [
+     "them",
+     "someone who'll actually commit"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "YOURS 😭"
+    ],
+    [
+     "them",
+     "I've changed it to yours"
+    ],
+    [
+     "them",
+     "now hurry up"
+    ],
+    [
+     "them",
+     "you've got till 31 December"
+    ]
+   ],
+   "overlay": [
+    "opened Resolve through tears"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V97",
+   "hook": "my girlfriend's been secretly talking to my ex",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why are you messaging Becky"
+    ],
+    [
+     "me",
+     "MY ex Becky"
+    ],
+    [
+     "them",
+     "we've been talking for weeks"
+    ],
+    [
+     "them",
+     "she's got something I want"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "she's selling everything you bought her on Vinted"
+    ],
+    [
+     "them",
+     "I bought your Christmas jumper back"
+    ],
+    [
+     "them",
+     "£4"
+    ],
+    [
+     "me",
+     "why would you WEAR that"
+    ],
+    [
+     "them",
+     "it's warm and she's losing"
+    ]
+   ],
+   "overlay": [
+    "'something I want' 😐"
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 3,
+   "phone": "Jay",
+   "step": "Keep scrolling until “Something he's NEVER bought his ex 🙄 +100” is in the middle of the screen. Finger off, count to 5.",
+   "why": "Jay is looking at Ella's wishlist. It either shows the evidence or shows him doing her wishlist to win her back.",
+   "setup": null
+  },
+  {
+   "id": "V98",
+   "hook": "she leaves at 6am every morning in full makeup",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "where do you go at 6am in full glam"
+    ],
+    [
+     "them",
+     "I have to be first"
+    ],
+    [
+     "me",
+     "first for WHO"
+    ],
+    [
+     "them",
+     "you wouldn't understand"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "yellow stickers 😭"
+    ],
+    [
+     "them",
+     "the reduced aisle"
+    ],
+    [
+     "them",
+     "I got a whole salmon for 42p"
+    ],
+    [
+     "me",
+     "why the MAKEUP"
+    ],
+    [
+     "them",
+     "Janet's there"
+    ]
+   ],
+   "overlay": [
+    "who is JANET"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 10,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Mon 5 Oct. Tap Ella's event “Janet 😤” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Janet 😤",
+    "Mon 5 Oct, 6:00am",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V99",
+   "hook": "a man called 'Uncle Ernie' sends my girlfriend money every month",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "who is Uncle Ernie"
+    ],
+    [
+     "me",
+     "and why does he send you money every month"
+    ],
+    [
+     "them",
+     "he's been generous since 2019"
+    ],
+    [
+     "me",
+     "HOW generous"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "£25"
+    ],
+    [
+     "them",
+     "Premium Bonds 😭"
+    ],
+    [
+     "them",
+     "ERNIE's the computer"
+    ],
+    [
+     "me",
+     "you've won £25 in 5 years"
+    ],
+    [
+     "them",
+     "and you've won me"
+    ]
+   ],
+   "overlay": [
+    "'generous since 2019'"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 11,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Tue 1 Dec. Tap Ella's event “Ernie day 💷” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Ernie day 💷",
+    "Tue 1 Dec, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V100",
+   "hook": "he said my lasagne tastes exactly like his ex's",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "them",
+     "this tastes exactly like Jade's lasagne"
+    ],
+    [
+     "me",
+     "EXCUSE ME"
+    ],
+    [
+     "them",
+     "it's a compliment"
+    ],
+    [
+     "me",
+     "how is that a COMPLIMENT"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "ok the app said explain"
+    ],
+    [
+     "them",
+     "it tastes exactly like hers"
+    ],
+    [
+     "them",
+     "because hers was Iceland too"
+    ],
+    [
+     "me",
+     "…you KNEW??"
+    ],
+    [
+     "them",
+     "I've always known"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "E3",
+   "idx": 1,
+   "phone": "Ella",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording E3. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V101",
+   "hook": "she's been deleting her search history every night",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why do you delete your search history every night"
+    ],
+    [
+     "them",
+     "it's private"
+    ],
+    [
+     "me",
+     "what are you googling at midnight"
+    ],
+    [
+     "them",
+     "things I can't tell you"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "'how to tell my boyfriend I don't like football'"
+    ],
+    [
+     "them",
+     "I've pretended for 3 years"
+    ],
+    [
+     "me",
+     "YOU CRIED AT THE FINAL"
+    ],
+    [
+     "them",
+     "I was bored"
+    ]
+   ],
+   "overlay": [
+    "'things I can't tell you'"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V102",
+   "hook": "he sent me 'happy birthday Emma'. my name isn't Emma.",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "them",
+     "happy birthday Emma ❤️ still think about you"
+    ],
+    [
+     "me",
+     "who is Emma"
+    ],
+    [
+     "me",
+     "and why do you 'still think about' her"
+    ],
+    [
+     "them",
+     "wait"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "same birthday 😭"
+    ],
+    [
+     "them",
+     "I wrote hers and yours at the same time"
+    ],
+    [
+     "them",
+     "copy-paste"
+    ],
+    [
+     "me",
+     "so EMMA got mine??"
+    ],
+    [
+     "them",
+     "she said thank you"
+    ]
+   ],
+   "overlay": [
+    "SHE'S IN HIS CALENDAR TOO"
+   ],
+   "photo": null,
+   "rec": "E2",
+   "idx": 13,
+   "phone": "Ella",
+   "step": "Open Calendar. Go to Sun 14 March 2027. Finger off, count to 5 with both “Emma 🎂” and “Ella 🎂” showing on the same day. Go back. Count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Jay",
+    "Emma 🎂 AND Ella 🎂 (two separate events)",
+    "both on Sun 14 March 2027",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V103",
+   "hook": "she said she's on Hinge 'just to check'",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "them",
+     "I've been on Hinge"
+    ],
+    [
+     "me",
+     "WHAT"
+    ],
+    [
+     "them",
+     "just to check something"
+    ],
+    [
+     "me",
+     "check WHAT"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "you're still on it"
+    ],
+    [
+     "them",
+     "'looking for someone who laughs at my jokes'"
+    ],
+    [
+     "them",
+     "since 2022"
+    ],
+    [
+     "me",
+     "…I forgot it existed"
+    ],
+    [
+     "them",
+     "1000 brownies. today."
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V104",
+   "hook": "her best friend 'bestie 🫶' has a photo of them kissing",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why has 'bestie' got a photo of you two kissing"
+    ],
+    [
+     "them",
+     "we dated"
+    ],
+    [
+     "me",
+     "YOU DATED YOUR BEST FRIEND??"
+    ],
+    [
+     "them",
+     "briefly"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "2 weeks"
+    ],
+    [
+     "them",
+     "Year 7"
+    ],
+    [
+     "them",
+     "he dumped me on MSN"
+    ],
+    [
+     "me",
+     "does Year 7 even count"
+    ],
+    [
+     "them",
+     "he says it does"
+    ]
+   ],
+   "overlay": [
+    "'briefly' 😐"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  },
+  {
+   "id": "V105",
+   "hook": "my girlfriend follows 12 of my exes on Instagram",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why do you follow 12 of my exes"
+    ],
+    [
+     "them",
+     "research"
+    ],
+    [
+     "me",
+     "RESEARCH??"
+    ],
+    [
+     "them",
+     "I needed to know what I'm dealing with"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "every one of them said the same thing"
+    ],
+    [
+     "them",
+     "'he forgets everything'"
+    ],
+    [
+     "them",
+     "so now it's on my list"
+    ],
+    [
+     "me",
+     "you interviewed my EXES?"
+    ],
+    [
+     "them",
+     "3 of them are in a group chat now"
+    ]
+   ],
+   "overlay": [
+    "she built a WISHLIST from them"
+   ],
+   "photo": null,
+   "rec": "J1",
+   "idx": 4,
+   "phone": "Jay",
+   "step": "Keep scrolling until “Remember my birthday (unlike with Jess) 🎂” and “Text back within the hour (unlike with Leah)” are both on screen. Finger off, count to 5.",
+   "why": "Jay is looking at Ella's wishlist. It either shows the evidence or shows him doing her wishlist to win her back.",
+   "setup": null
+  },
+  {
+   "id": "V106",
+   "hook": "he moved our wedding date without telling me",
+   "angry": "Ella",
+   "other": "Jay",
+   "dmname": "jay 🤍",
+   "fight": [
+    [
+     "me",
+     "why has our WEDDING moved in the calendar"
+    ],
+    [
+     "them",
+     "I had to"
+    ],
+    [
+     "me",
+     "HAD TO??"
+    ],
+    [
+     "them",
+     "there was a clash"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "Champions League final 😭"
+    ],
+    [
+     "them",
+     "1 June"
+    ],
+    [
+     "me",
+     "you moved our WEDDING for FOOTBALL"
+    ],
+    [
+     "them",
+     "the venue was £400 cheaper too"
+    ],
+    [
+     "me",
+     "…fine"
+    ]
+   ],
+   "overlay": [
+    "a 'clash' 🙂"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 13,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Tue 1 June 2027. Open “Wedding 💍”, change the date to Tue 8 June 2027 (drag it, or edit the date), and save. Show 8 June with “Wedding 💍” for 5 seconds. Count to 2 before the next one.",
+   "why": "This shows what Jay did (moving the wedding). So it's filmed on Jay's phone, even though Ella is the angry one.",
+   "setup": [
+    "Jay",
+    "Wedding 💍",
+    "Tue 1 June 2027, all day",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V107",
+   "hook": "a man came round at 8pm, stayed till midnight and left smiling",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "Ring doorbell says a man came at 8pm"
+    ],
+    [
+     "me",
+     "left at midnight SMILING"
+    ],
+    [
+     "them",
+     "he was amazing"
+    ],
+    [
+     "them",
+     "4 hours and he didn't stop once"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "the electrician 😭"
+    ],
+    [
+     "them",
+     "it's in the calendar"
+    ],
+    [
+     "them",
+     "£240"
+    ],
+    [
+     "me",
+     "that's why he was smiling"
+    ]
+   ],
+   "overlay": [
+    "she put him in OUR calendar"
+   ],
+   "photo": null,
+   "rec": "J2",
+   "idx": 12,
+   "phone": "Jay",
+   "step": "Open Calendar. Go to Wed 30 Sep. Tap Ella's event “Him ⚡” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one.",
+   "why": "The calendar is the evidence the angry person finds. It proves something is going on but doesn't give away the twist.",
+   "setup": [
+    "Ella",
+    "Him ⚡",
+    "Wed 30 Sep, 8:00pm",
+    "does not repeat",
+    null
+   ]
+  },
+  {
+   "id": "V108",
+   "hook": "my girlfriend's been spraying another man's aftershave on her pillow",
+   "angry": "Jay",
+   "other": "Ella",
+   "dmname": "ella 🤍",
+   "fight": [
+    [
+     "me",
+     "why does your pillow smell of aftershave"
+    ],
+    [
+     "me",
+     "it's not mine"
+    ],
+    [
+     "them",
+     "it's the one I love"
+    ],
+    [
+     "them",
+     "I can't sleep without it"
+    ]
+   ],
+   "twist": [
+    [
+     "them",
+     "it's YOUR old one 😭"
+    ],
+    [
+     "them",
+     "before your mum bought you the new one"
+    ],
+    [
+     "them",
+     "the new one smells like a car air freshener"
+    ],
+    [
+     "me",
+     "…I've worn it for 2 years"
+    ],
+    [
+     "them",
+     "I know"
+    ]
+   ],
+   "overlay": [
+    "took it to Resolve"
+   ],
+   "photo": null,
+   "rec": "J4",
+   "idx": 1,
+   "phone": "Jay",
+   "step": "Nothing extra to film. This clip comes from the full Resolve session in recording J4. I'll use a moment from it (the start, the speaking step, the repeat-back step with the timer, or the next step).",
+   "why": "Instead of escalating, the angry person takes the fight to Resolve, which guides the argument and makes the listener repeat back what they heard. The twist only arrives afterwards in the DMs.",
+   "setup": null
+  }
+ ],
+ "recs": [
+  {
+   "code": "J1",
+   "phone": "Jay",
+   "title": "Brownies – Ella's wishlist",
+   "items": [
+    {
+     "id": "V03",
+     "step": "Open Brownies → Ella's wishlist. Scroll slowly until “Flowers for no reason 💐 +25” is in the middle of the screen. Take your finger off the screen and count to 5. Don't tap anything."
+    },
+    {
+     "id": "V62",
+     "step": "Keep scrolling until “Hall pass 🎫 +100” is in the middle of the screen. Finger off, count to 5."
+    },
+    {
+     "id": "V97",
+     "step": "Keep scrolling until “Something he's NEVER bought his ex 🙄 +100” is in the middle of the screen. Finger off, count to 5."
+    },
+    {
+     "id": "V105",
+     "step": "Keep scrolling until “Remember my birthday (unlike with Jess) 🎂” and “Text back within the hour (unlike with Leah)” are both on screen. Finger off, count to 5."
+    },
+    {
+     "id": "V01",
+     "step": "Tap “I did this” on “Foot rub (10 mins)”, then on “Tea without me asking”, then on “Text me at lunch”, one after another. Then finger off, count to 3."
+    },
+    {
+     "id": "V09",
+     "step": "Scroll until “Back rub, 10 mins 💆‍♀️ +25” is in the middle of the screen. Finger off, count to 2. Tap “I did this”. Finger off, count to 3."
+    },
+    {
+     "id": "V66",
+     "step": "Tap “I did this” on “Bring the washing in”, then “Plan a date night”, then “Hug when I get home”. Then finger off, count to 3."
+    },
+    {
+     "id": "V77",
+     "step": "Tap “I did this” on “Take the bins out”, then “Cook dinner Friday”, then “Fill my car up”. Then finger off, count to 3. Stop recording."
+    }
+   ]
+  },
+  {
+   "code": "J2",
+   "phone": "Jay",
+   "title": "Calendar – Ella's events (+ your own Lads' night and the wedding)",
+   "items": [
+    {
+     "id": "V22",
+     "step": "Open Calendar. Go to Mon 12 Oct. Tap Ella's event “Malaga ☀️” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V25",
+     "step": "Open Calendar. Go to Mon 28 Sep. First hold 3 seconds on the day list showing “Leave him” at 5:30. Then tap it open so the note “…alone for 30 mins when he gets in from work 🫡” shows. Hold 5 seconds. Go back. Count to 2 before the next one."
+    },
+    {
+     "id": "V69",
+     "step": "Open Calendar. Go to Sat 10 Oct. Tap Ella's event “Meeting him 😍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V74",
+     "step": "Open Calendar. Go to Sat 19 Sep. Tap your own event “Lads' night 🍻”. Finger off, count to 5. Go back. Count to 2 before the next one."
+    },
+    {
+     "id": "V75",
+     "step": "Open Calendar. Go to Sat 17 Oct. Tap Ella's event “Exit plan 🚪” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V79",
+     "step": "Open Calendar. Go to Sun 18 Oct. Tap Ella's event “Josh's family 🏠” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V80",
+     "step": "Open Calendar. Go to Fri 2 Oct. Tap Ella's event “Ali 🌙” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V81",
+     "step": "Open Calendar. Go to Sat 24 Oct. Tap Ella's event “Megan 🤍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V85",
+     "step": "Open Calendar. Go to Tue 6 Oct. Tap Ella's event “Lunch w/ work husband 🍝” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V98",
+     "step": "Open Calendar. Go to Mon 5 Oct. Tap Ella's event “Janet 😤” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V99",
+     "step": "Open Calendar. Go to Tue 1 Dec. Tap Ella's event “Ernie day 💷” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V107",
+     "step": "Open Calendar. Go to Wed 30 Sep. Tap Ella's event “Him ⚡” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V106",
+     "step": "Open Calendar. Go to Tue 1 June 2027. Open “Wedding 💍”, change the date to Tue 8 June 2027 (drag it, or edit the date), and save. Show 8 June with “Wedding 💍” for 5 seconds. Count to 2 before the next one."
+    }
+   ]
+  },
+  {
+   "code": "J3",
+   "phone": "Jay",
+   "title": "Mood – Ella's mood (4 short recordings)",
+   "items": [
+    {
+     "id": "V33",
+     "step": "FIRST, on Ella's login, set her mood to “In love 😍”. THEN on Jay's login: open Mood, show Ella's mood “In love 😍” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)"
+    },
+    {
+     "id": "V34",
+     "step": "FIRST, on Ella's login, set her mood to “Betrayed”. THEN on Jay's login: open Mood, show Ella's mood “Betrayed” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)"
+    },
+    {
+     "id": "V61",
+     "step": "FIRST, on Ella's login, set her mood to “Guilty”. THEN on Jay's login: open Mood, show Ella's mood “Guilty” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)"
+    },
+    {
+     "id": "V65",
+     "step": "FIRST, on Ella's login, set her mood to “Annoyed”. THEN on Jay's login: open Mood, show Ella's mood “Annoyed” on screen and finger off, count to 5. Stop recording. (This is its own short recording.)"
+    }
+   ]
+  },
+  {
+   "code": "J4",
+   "phone": "Jay",
+   "title": "Resolve – one full session on Jay's login",
+   "items": [
+    {
+     "id": "RJ",
+     "step": "Open Resolve and start a session. Go through the whole thing, start to finish, following the app's steps. On EVERY new screen, take your finger off and count to 5 before tapping on. On the repeat-back step, let the TIME LEFT timer run for about 5 seconds so it visibly counts down. Stop recording at the end. (This one recording covers 12 videos: V44, V63, V88, V89, V91, V92, V95, V96, V101, V103, V104, V108.)"
+    }
+   ]
+  },
+  {
+   "code": "E1",
+   "phone": "Ella",
+   "title": "Brownies – Ella's OWN wishlist",
+   "items": [
+    {
+     "id": "V70",
+     "step": "Open Brownies → My wishlist (Ella's own). Scroll until “The ring 💍 +1000” is in the middle of the screen. Finger off, count to 5. Stop recording."
+    }
+   ]
+  },
+  {
+   "code": "E2",
+   "phone": "Ella",
+   "title": "Calendar – Jay's events (+ one you add live)",
+   "items": [
+    {
+     "id": "V14",
+     "step": "Open Calendar. Go to Thu 1 Oct. Tap Jay's event “Sarah 🌸” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V19",
+     "step": "Open Calendar. Go to Sat 3 Oct. Tap Jay's event “Ex's wedding 💍” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V24",
+     "step": "Open Calendar. Go to Thu 8 Oct. Tap Jay's event “Make her feel special 🙂” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V64",
+     "step": "Open Calendar. Go to Sun 4 Oct. Tap Jay's event “Sunday dinner 🍗 + Liam” to open it. Finger off the screen, count to 5, so the title and the note can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V67",
+     "step": "Open Calendar in WEEK view for the week of Mon 19 Oct, so Monday “Jess 📞”, Wednesday “Priya 📞” and Friday “Chloe 📞” are all visible at once. Finger off, count to 5. Count to 2 before the next one."
+    },
+    {
+     "id": "V71",
+     "step": "Open Calendar. Go to Sun 1 Nov. Tap Jay's event “Send £50 to my queen 👑” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V73",
+     "step": "Open Calendar. Go to Sun 11 Oct. Tap Jay's event “Ask her dad ☕” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V76",
+     "step": "Open Calendar. Go to Tue 29 Sep. Tap Jay's event “Lenny 🌙” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V82",
+     "step": "Open Calendar. Go to Wed 7 Oct. Tap Jay's event “Babe 💕🎮” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V83",
+     "step": "Open Calendar. Go to Fri 9 Oct. Tap Jay's event “Collect ring 💍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V87",
+     "step": "Open Calendar. Go to Tue 20 Oct. Tap Jay's event “Linda 🤍” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V90",
+     "step": "Open Calendar. Go to Tue 27 Oct. Tap Jay's event “Gym 💪” to open it. Finger off the screen, count to 5, so the title can be read. Go back to the calendar and count to 2 before the next one."
+    },
+    {
+     "id": "V102",
+     "step": "Open Calendar. Go to Sun 14 March 2027. Finger off, count to 5 with both “Emma 🎂” and “Ella 🎂” showing on the same day. Go back. Count to 2 before the next one."
+    },
+    {
+     "id": "V84",
+     "step": "Tap + to add a new event. Type “Change Netflix password 🔒 TONIGHT”, set it for today (the day you record) at 9:00pm, and save. Finger off, count to 5 on the saved event. Stop recording."
+    }
+   ]
+  },
+  {
+   "code": "E3",
+   "phone": "Ella",
+   "title": "Resolve – one full session on Ella's login",
+   "items": [
+    {
+     "id": "RE",
+     "step": "Same as J4, on Ella's login: start a session and go through every step, finger off and count to 5 on each new screen, let the timer run about 5 seconds on the repeat-back step. Stop at the end. (This one recording covers 8 videos: V43, V68, V72, V78, V86, V93, V94, V100.)"
+    }
+   ]
+  }
+ ],
+ "cal": [
+  {
+   "id": "V22",
+   "creator": "Ella",
+   "title": "Malaga ☀️",
+   "when": "Mon 12 Oct to Thu 15 Oct, all day",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V25",
+   "creator": "Ella",
+   "title": "Leave him",
+   "when": "Mon 28 Sep, 5:30pm to 6:00pm",
+   "repeat": "does not repeat",
+   "note": "…alone for 30 mins when he gets in from work 🫡"
+  },
+  {
+   "id": "V69",
+   "creator": "Ella",
+   "title": "Meeting him 😍",
+   "when": "Sat 10 Oct, 11:00am",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V75",
+   "creator": "Ella",
+   "title": "Exit plan 🚪",
+   "when": "Sat 17 Oct, 2:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V79",
+   "creator": "Ella",
+   "title": "Josh's family 🏠",
+   "when": "Sun 18 Oct, 1:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V80",
+   "creator": "Ella",
+   "title": "Ali 🌙",
+   "when": "Fri 2 Oct, 2:00am",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V81",
+   "creator": "Ella",
+   "title": "Megan 🤍",
+   "when": "Sat 24 Oct, 10:00am",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V85",
+   "creator": "Ella",
+   "title": "Lunch w/ work husband 🍝",
+   "when": "Tue 6 Oct, 1:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V98",
+   "creator": "Ella",
+   "title": "Janet 😤",
+   "when": "Mon 5 Oct, 6:00am",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V99",
+   "creator": "Ella",
+   "title": "Ernie day 💷",
+   "when": "Tue 1 Dec, all day",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V107",
+   "creator": "Ella",
+   "title": "Him ⚡",
+   "when": "Wed 30 Sep, 8:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V14",
+   "creator": "Jay",
+   "title": "Sarah 🌸",
+   "when": "Thu 1 Oct, 7:00pm",
+   "repeat": "does not repeat",
+   "note": "don't tell her"
+  },
+  {
+   "id": "V19",
+   "creator": "Jay",
+   "title": "Ex's wedding 💍",
+   "when": "Sat 3 Oct, all day",
+   "repeat": "does not repeat",
+   "note": "£900 🤝"
+  },
+  {
+   "id": "V24",
+   "creator": "Jay",
+   "title": "Make her feel special 🙂",
+   "when": "Thu 8 Oct, 6:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V64",
+   "creator": "Jay",
+   "title": "Sunday dinner 🍗 + Liam",
+   "when": "Sun 4 Oct, 1:00pm",
+   "repeat": "does not repeat",
+   "note": "Added by Mum"
+  },
+  {
+   "id": "V67",
+   "creator": "Jay",
+   "title": "Jess 📞 / Priya 📞 / Chloe 📞 (three separate events)",
+   "when": "Jess: Mon 19 Oct 7pm · Priya: Wed 21 Oct 7pm · Chloe: Fri 23 Oct 7pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V71",
+   "creator": "Jay",
+   "title": "Send £50 to my queen 👑",
+   "when": "Sun 1 Nov, all day",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V73",
+   "creator": "Jay",
+   "title": "Ask her dad ☕",
+   "when": "Sun 11 Oct, 2:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V74",
+   "creator": "Jay",
+   "title": "Lads' night 🍻",
+   "when": "Sat 19 Sep, 7:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V76",
+   "creator": "Jay",
+   "title": "Lenny 🌙",
+   "when": "Tue 29 Sep, all day",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V82",
+   "creator": "Jay",
+   "title": "Babe 💕🎮",
+   "when": "Wed 7 Oct, 10:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V83",
+   "creator": "Jay",
+   "title": "Collect ring 💍",
+   "when": "Fri 9 Oct, all day",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V87",
+   "creator": "Jay",
+   "title": "Linda 🤍",
+   "when": "Tue 20 Oct, 6:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V90",
+   "creator": "Jay",
+   "title": "Gym 💪",
+   "when": "Tue 27 Oct, 7:00pm",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V102",
+   "creator": "Jay",
+   "title": "Emma 🎂 AND Ella 🎂 (two separate events)",
+   "when": "both on Sun 14 March 2027",
+   "repeat": "does not repeat",
+   "note": null
+  },
+  {
+   "id": "V106",
+   "creator": "Jay",
+   "title": "Wedding 💍",
+   "when": "Tue 1 June 2027, all day",
+   "repeat": "does not repeat",
+   "note": null
+  }
+ ],
+ "wish": [
+  [
+   "Foot rub (10 mins)",
+   "25"
+  ],
+  [
+   "Tea without me asking",
+   "25"
+  ],
+  [
+   "Text me at lunch",
+   "25"
+  ],
+  [
+   "Back rub, 10 mins 💆‍♀️",
+   "25"
+  ],
+  [
+   "Flowers for no reason 💐",
+   "25"
+  ],
+  [
+   "Hall pass 🎫",
+   "100"
+  ],
+  [
+   "The ring 💍",
+   "1000"
+  ],
+  [
+   "Something he's NEVER bought his ex 🙄",
+   "100"
+  ],
+  [
+   "Remember my birthday (unlike with Jess) 🎂",
+   "25"
+  ],
+  [
+   "Text back within the hour (unlike with Leah)",
+   "25"
+  ],
+  [
+   "Bring the washing in",
+   "25"
+  ],
+  [
+   "Plan a date night",
+   "25"
+  ],
+  [
+   "Hug when I get home",
+   "25"
+  ],
+  [
+   "Take the bins out",
+   "25"
+  ],
+  [
+   "Cook dinner Friday",
+   "25"
+  ],
+  [
+   "Fill my car up",
+   "25"
+  ]
+ ],
+ "mood": {
+  "V33": "In love 😍",
+  "V34": "Betrayed",
+  "V61": "Guilty",
+  "V65": "Annoyed"
+ }
+}
