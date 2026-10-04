@@ -11,8 +11,9 @@ What it does to every video (see SPEC.md section 13 for the why):
      - the same iPhone home bar at the bottom of chat, splash and app footage
        (the home screen itself has none, like a real iPhone);
      - app footage is shifted down 100px so its own header sits under the status bar.
-  3. Trims long still shots in the app footage to the time a viewer needs to read them
-     (caption + on-screen evidence, minus time the caption was already on screen; never under 2s).
+  3. Sets every still shot in the app footage to the time a viewer needs to read it
+     (caption + on-screen evidence, minus time the caption was already on screen; never under 2s):
+     too long -> trimmed, too short -> the frozen frame is held longer.
   4. Paints out the "Free Trial / N days left" card wherever it appears in the footage.
   5. Rebuilds the audio so every sound effect and the twist sting stay in sync.
 
@@ -158,13 +159,16 @@ def caption_prior_seconds(path, A, s):
         else: break
     return prior / FPS
 
-def reading_text(v):
-    """caption + evidence for the still shot. reading.json wins; otherwise fall back to scenarios.json
+def reading_text(v, k=0):
+    """caption + evidence for still shot k. reading.json wins (an entry may be a list, one per still shot); otherwise fall back to scenarios.json
     (overlay = caption, in_app = evidence). Check the on-screen text when adding new videos."""
     rj = os.path.join(HERE, 'reading.json')
     if os.path.exists(rj):
         d = json.load(open(rj))
-        if v in d: return d[v]['caption'], d[v]['evidence']
+        if v in d:
+            e = d[v]
+            if isinstance(e, list): e = e[min(k, len(e) - 1)]     # one entry per still shot, in order
+            return e['caption'], e['evidence']
     sc = {s['id']: s for s in json.load(open(os.path.join(HERE, '..', 'scenarios.json')))}
     s = sc.get(v, {})
     print(f'  {v}: not in reading.json, using scenarios.json text (verify against the frame)')
@@ -184,20 +188,26 @@ def paint_free_trial(f):
 def process(v, in_dir, out_dir, TR):
     src = os.path.join(in_dir, f'{v}.mp4')
     Hs, A, E, N = segment(src); NT = len(TR)
-    cuts = []
-    for s, e in still_runs(src, A, E):
-        cap, ev = reading_text(v)
+    cuts, exts = [], {}      # trims (start, end) and extensions {last_frame: extra_frames}
+    for k, (s, e) in enumerate(still_runs(src, A, E)):
+        cap, ev = reading_text(v, k)
         prior = caption_prior_seconds(src, A, s)
         need = ORIENT + max(0, len(cap.split()) / CAP_WPS - prior) + len(ev.split()) / EV_WPS + BEAT
         kf = int(round(max(need, MIN_HOLD) * FPS))
         if e - s > kf: cuts.append((s + kf, e))
-    pieces = [(0, Hs), (Hs, Hs + NT)]          # 2nd piece: transition (audio taken from the original at Hs)
+        elif kf - (e - s) >= 3: exts[e - 1] = kf - (e - s)   # still too short to read: hold it longer
+    # output order as original intervals; piece index 1 is the iPhone transition
+    pieces = [(0, Hs), (Hs, Hs + NT)]
     cur = A
-    for cs, ce in cuts: pieces.append((cur, cs)); cur = ce
+    events = sorted([(cs, 'cut', ce) for cs, ce in cuts] + [(le + 1, 'ext', x) for le, x in exts.items()])
+    for at, kind, val in events:
+        pieces.append((cur, at))
+        if kind == 'cut': cur = val
+        else: pieces.append((at - val, at)); cur = at       # repeat the audio under the held frame
     pieces.append((cur, N))
     keep = np.zeros(N, bool)
-    for idx, (s, e) in enumerate(pieces):
-        if idx != 1: keep[s:e] = True
+    for s, e in [(0, Hs)] + [(A, N)]: keep[s:e] = True
+    for cs, ce in cuts: keep[cs:ce] = False
     state = {'sb': None, 'ind': None}
     def pick(key, val):            # black/white status & home bar with hysteresis (no flicker)
         c = state[key]
@@ -211,7 +221,8 @@ def process(v, in_dir, out_dir, TR):
             if keep[i]:
                 if A <= i < E:
                     f, p = paint_free_trial(f); painted[0] += p
-                    yield footage_post(f, pick('sb', float(f[0:60].mean())), pick('ind', float(f[1790:1820, 380:700].mean())))
+                    g = footage_post(f, pick('sb', float(f[0:60].mean())), pick('ind', float(f[1790:1820, 380:700].mean())))
+                    for _ in range(1 + exts.get(i, 0)): yield g
                 else:
                     yield chat_post(f)
     # audio: each kept piece keeps its own original audio, joined with 40ms crossfades
@@ -237,7 +248,7 @@ def process(v, in_dir, out_dir, TR):
     n = 0
     for f in frames(): p.stdin.write(f.tobytes()); n += 1
     p.stdin.close(); p.wait(); os.remove(wav_in); os.remove(wav_out)
-    print(f'{v}: {N / FPS:.2f}s -> {n / FPS:.2f}s  trims={[(round(s / FPS, 2), round(e / FPS, 2)) for s, e in cuts]}  free-trial frames painted={painted[0]}', flush=True)
+    print(f'{v}: {N / FPS:.2f}s -> {n / FPS:.2f}s  trims={[(round(s / FPS, 2), round(e / FPS, 2)) for s, e in cuts]}  holds_extended={ {round((k+1)/FPS,2): round(x/FPS,2) for k, x in exts.items()} }  free-trial frames painted={painted[0]}', flush=True)
 
 if __name__ == '__main__':
     in_dir, out_dir, ids = sys.argv[1], sys.argv[2], sys.argv[3:]

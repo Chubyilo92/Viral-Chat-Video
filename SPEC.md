@@ -58,8 +58,10 @@ These are implemented in `render.py`:
 
 ## 5. Footage section
 
-- Cover-cropped to 1080×1920, played at 1.15× speed, trimmed to ≤8.5s.
-- Captions (`overlay`) are split evenly across the clip, Poppins Bold 62–80 with stroke, at y≈1250.
+- Cover-cropped to 1080×1920 and played at 1.15× speed.
+- **How long the app is shown is never a fixed time. It always matches how long the on-screen text takes to read (owner's rule, 4 Oct).** `build.py` gives each caption `0.4s + words/4 per s + 0.3s` (min 1.5s). The last caption also gets the on-screen evidence (`in_app` words/4 per s, min 2.0s). The footage is never cut shorter than that total: if the clip runs out, its last frame is held (`pad`). If the clip is longer, it plays up to 8.5s (or the reading total if that's longer) so the evidence isn't cut off.
+- Captions (`overlay`) are timed by that reading need (not split evenly), Poppins Bold 62–80 with stroke, at y≈1250.
+- `postprocess/postprocess.py` (section 13) then sets every still shot to exactly its reading time from the real on-screen text: too long gets trimmed, too short gets held longer.
 - Sound effects: message pops (in/out), a whoosh at section changes and key clicks. **No music is baked in.** The owner adds a trending sound when posting, and Metricool can attach IG catalogue audio or TikTok auto-music.
 
 ## 6. End card lines (by feature)
@@ -122,7 +124,7 @@ python3 build.py V03 V14 ... --footage FOOTAGE_DIR [--photos PHOTO_DIR] --out ou
 - 24 Sep: Resolve has no typing, so it's filmed as full sessions. Calendar events get unique dates and no repeats.
 - 24 Sep: added live typing with keyboard, and awkward comment-bait openers.
 - 28 Sep: all of this moved into this repo as the canonical home (flat layout).
-- 4 Oct: post-processing step added (section 13): the owner's real iPhone recording as the chat→app transition (an Android version came first, then iPhone for relatability); the same 9:41 status bar and home bar across every section; still shots trimmed to reading time (min 2s), not a fixed cap; Free Trial card painted out. Applied to the 14 Mike Gomorrah batch videos (github.com/Chubyilo92/Mikegomo).
+- 4 Oct: post-processing step added (section 13): the owner's real iPhone recording as the chat→app transition (an Android version came first, then iPhone for relatability); the same 9:41 status bar and home bar across every section; still shots set to reading time (min 2s), not a fixed cap; Free Trial card painted out. Same day: footage length in build.py also made reading-time driven (caption timing by word count, last frame held if the clip is too short), and postprocess now also extends stills that are too short. Applied to the 14 Mike Gomorrah batch videos (github.com/Chubyilo92/Mikegomo).
 
 ## 13. Post-processing: iPhone transition, matching header/footer, reading-time pacing (4 Oct 2026)
 
@@ -146,10 +148,10 @@ Every video gets this step after `build.py`. Script: `postprocess/postprocess.py
 - App footage is shifted down 100px (top band filled with the footage's own top colour), so the app's header sits under the status bar like a real app and nothing overlaps. The bottom 100px of footage is lost, which is fine.
 - The same iPhone home bar (318×11px at y=1900, matching the real recording) is added to chat (white, under the keyboard), splash and app footage (black/white by background). The home screen has none, like a real iPhone.
 
-**3. Still shots are trimmed to reading time, not a fixed cap (owner's rule):**
-- Still runs (no pixel change for 1.5s+) in the footage are trimmed to `0.4s orient + caption words/4 per s (minus the time the same caption was already on screen, found by template-matching the caption box) + evidence words/4 per s + 0.3s beat`, and never below 2.0s. Shorter stills are left alone.
-- `postprocess/reading.json` holds the on-screen caption and the evidence the viewer must take in (event name, date, time, item) for each video. **For new videos, add their entry by reading the actual hold frame.** The on-screen captions often differ from `scenarios.json` (e.g. V80 shows "Friday. 2am. she's booked him in."). If an entry is missing, the script falls back to scenarios.json overlay/in_app and warns.
-- Results for batch 1 (old still → new): V03 5.3→3.2, V22 6.1→2.7, V62 4.4→2.0, V69 4.9→3.5, V74 2.8→2.0, V75 3.6→2.4, V79 5.2→2.6, V80 5.6→3.2, V81 6.3→2.0, V85 4.6→2.4; V25 2.6 kept.
+**3. Still shots always match reading time, never a fixed cap (owner's rule):**
+- Still runs (no pixel change for 1.5s+) in the footage are set to `0.4s orient + caption words/4 per s (minus the time the same caption was already on screen, found by template-matching the caption box) + evidence words/4 per s + 0.3s beat`, and never below 2.0s. Longer stills are trimmed. Shorter ones are held longer (the frozen frame is repeated and the audio under it is repeated with crossfades, so the sync holds).
+- `postprocess/reading.json` holds the on-screen caption and the evidence the viewer must take in (event name, date, time, item) for each video. **For new videos, add their entry by reading the actual hold frame.** The on-screen captions often differ from `scenarios.json` (e.g. V80 shows "Friday. 2am. she's booked him in."). An entry can be a list (one per still shot, in order) when a clip has more than one still with different captions (see V25). If an entry is missing, the script falls back to scenarios.json overlay/in_app and warns.
+- Results for batch 1 (old still → new): V03 5.3→3.2, V22 6.1→2.7, V62 4.4→2.0, V69 4.9→3.5, V74 2.8→2.0, V75 3.6→2.4, V79 5.2→2.6, V80 5.6→3.2, V81 6.3→2.0, V85 4.6→2.4; V25 2.6 kept (these 14 were approved before the hold-longer rule existed; from now on a still like V25's gets extended to its reading time).
 
 **4. Free Trial card:** the "🎉 Free Trial · N days left" card must never be visible. The script detects its progress bar in every footage frame and paints the card (and everything below it) with the background colour. In batch 1 it only appeared in V03.
 

@@ -339,8 +339,10 @@ def render_dm(section, base, prior, frames_out):
 # ---------- footage ----------
 def render_footage(section, frames_out):
     ss, dur_src, speed, src = section.get("src_start", 0), section["src_dur"], section.get("speed", 1.0), section["src"]
+    pad = section.get("pad", 0)   # hold the last frame so the reading time is always met
+    tp = f",tpad=stop_mode=clone:stop_duration={pad}" if pad > 0 else ""
     cmd = ["ffmpeg", "-v", "error", "-ss", str(ss), "-t", str(dur_src), "-i", src,
-           "-vf", f"setpts=PTS/{speed},fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+           "-vf", f"setpts=PTS/{speed},fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}{tp}",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"]
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
     fi = 0

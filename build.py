@@ -109,16 +109,27 @@ def build_script(s, clip_file, photo):
     twist, e2 = retime(conv(s["twist"]), 0.8)
     clip_len = duration(clip_file)
     speed = 1.15
-    src_dur = min(clip_len, 8.5 * speed)
-    fdur = src_dur / speed
+    # Footage time follows reading time (SPEC 5 + 13): each caption gets what it takes to read,
+    # the last one also covers the on-screen evidence (in_app). Never cut the clip short of that:
+    # if the clip is shorter than the reading time, its last frame is held (pad).
     ov = s["overlay"]
-    step = fdur / len(ov)
-    caps = [{"from": round(i * step, 2), "to": 99 if i == len(ov) - 1 else round((i + 1) * step, 2),
-             "text": t, "y": 1250, "size": 80 if len(t) <= 14 else 62} for i, t in enumerate(ov)]
+    needs = [max(1.5, 0.4 + len(t.split()) / 4.0 + 0.3) for t in ov]
+    needs[-1] = max(2.0, needs[-1] + len(str(s.get("in_app", "")).split()) / 4.0)
+    read_total = sum(needs)
+    src_dur = min(clip_len, max(8.5, read_total) * speed)
+    fdur = max(src_dur / speed, read_total)
+    pad = max(0.0, read_total - src_dur / speed)
+    scale = fdur / read_total
+    caps, t0 = [], 0.0
+    for i, (t, n) in enumerate(zip(ov, needs)):
+        t1 = t0 + n * scale
+        caps.append({"from": round(t0, 2), "to": 99 if i == len(ov) - 1 else round(t1, 2),
+                     "text": t, "y": 1250, "size": 80 if len(t) <= 14 else 62})
+        t0 = t1
     line = END_LINES[s["feature"]].format(p="her" if partner_is_her else "his", q="she" if partner_is_her else "he")
     return {"name": "ella 🤍" if partner_is_her else "jay 🤍", "history": opener_for(s["id"]), "sections": [
         {"type": "dm", "duration": round(e1 + 1.6, 2), "captions": [{"from": 0, "to": 99, "text": s["hook"], "y": 290}], "messages": fight},
-        {"type": "footage", "src": clip_file, "src_start": 0, "src_dur": round(src_dur, 2), "speed": speed, "captions": caps},
+        {"type": "footage", "src": clip_file, "src_start": 0, "src_dur": round(src_dur, 2), "speed": speed, "pad": round(pad, 2), "captions": caps},
         {"type": "dm", "duration": round(e2 + 2.0, 2), "continue": True,
          "captions": [{"from": 0, "to": 2.4, "text": f"then {'she' if partner_is_her else 'he'} sent this…", "y": 290}], "messages": twist},
         {"type": "end", "duration": 2.6, "line": line}]}

@@ -1,13 +1,52 @@
 {
- "V03": {"caption": "it's been on her list for 4 months. done 0 times.", "evidence": "Flowers for no reason"},
- "V22": {"caption": "then this appeared in OUR calendar", "evidence": "Malaga Monday 12 October 12th to 18th October"},
- "V25": {"caption": "and there's a NOTE", "evidence": "Leave Him now cristal clear what needs to happen"},
- "V62": {"caption": "one night. no questions.", "evidence": "Hall pass +100"},
- "V69": {"caption": "and then she put THIS in our calendar", "evidence": "Meeting him Saturday 10 October 11:00"},
- "V74": {"caption": "...I was out with the lads", "evidence": "Lads night Jess Priya"},
- "V75": {"caption": "it's in the calendar. with my BOYS.", "evidence": "Exit Plan Saturday 17 October 2:00 PM"},
- "V79": {"caption": "and it's in OUR calendar. with HIS family.", "evidence": "Josh's Family Sunday 18 October"},
- "V80": {"caption": "Friday. 2am. she's booked him in.", "evidence": "Ali Friday 2 October 2:00 AM"},
- "V81": {"caption": "every month. for a YEAR.", "evidence": "Megan Monthly"},
- "V85": {"caption": "'work husband'", "evidence": "Lunch w/ work husband Tuesday 1:00 PM"}
+ "V03": {
+  "caption": "it's been on her list for 4 months. done 0 times.",
+  "evidence": "Flowers for no reason"
+ },
+ "V22": {
+  "caption": "then this appeared in OUR calendar",
+  "evidence": "Malaga Monday 12 October 12th to 18th October"
+ },
+ "V25": [
+  {
+   "caption": "and there's a NOTE",
+   "evidence": "Leave Him now cristal clear what needs to happen"
+  },
+  {
+   "caption": "now crystal clear what needs to happen",
+   "evidence": ""
+  }
+ ],
+ "V62": {
+  "caption": "one night. no questions.",
+  "evidence": "Hall pass +100"
+ },
+ "V69": {
+  "caption": "and then she put THIS in our calendar",
+  "evidence": "Meeting him Saturday 10 October 11:00"
+ },
+ "V74": {
+  "caption": "...I was out with the lads",
+  "evidence": "Lads night Jess Priya"
+ },
+ "V75": {
+  "caption": "it's in the calendar. with my BOYS.",
+  "evidence": "Exit Plan Saturday 17 October 2:00 PM"
+ },
+ "V79": {
+  "caption": "and it's in OUR calendar. with HIS family.",
+  "evidence": "Josh's Family Sunday 18 October"
+ },
+ "V80": {
+  "caption": "Friday. 2am. she's booked him in.",
+  "evidence": "Ali Friday 2 October 2:00 AM"
+ },
+ "V81": {
+  "caption": "every month. for a YEAR.",
+  "evidence": "Megan Monthly"
+ },
+ "V85": {
+  "caption": "'work husband'",
+  "evidence": "Lunch w/ work husband Tuesday 1:00 PM"
+ }
 }
