@@ -102,6 +102,8 @@ python3 build.py V03 V14 ... --footage FOOTAGE_DIR [--photos PHOTO_DIR] --out ou
 - Needs ffmpeg, Python with Pillow and numpy, and the fonts Poppins (`/usr/share/fonts/truetype/google-fonts/`), Liberation Sans and Noto Color Emoji.
 - About 75s per video to render.
 - **QC every video before showing it:** frame 0 shows the hook and the opener; there's no clipped or overlapping text; the footage matches the caption; the photo is present if needed; no real faces; the file is under 19MB.
+- **Then always run the post-processing step (section 13)** on the build output before QC/preview/posting:
+  `python3 postprocess/postprocess.py out final V03 V14 ...` → `final/V##.mp4` are the files that get posted.
 - Preview to the owner on an artifact page with small (≈3MB) preview copies. Page limits are 15MB per file and 64MB per page. Downloads from chat file cards failed for the owner, so the page approach (long-press or right-click to save) is used.
 
 ## 10. Hosting and scheduling
@@ -120,9 +122,41 @@ python3 build.py V03 V14 ... --footage FOOTAGE_DIR [--photos PHOTO_DIR] --out ou
 - 24 Sep: Resolve has no typing, so it's filmed as full sessions. Calendar events get unique dates and no repeats.
 - 24 Sep: added live typing with keyboard, and awkward comment-bait openers.
 - 28 Sep: all of this moved into this repo as the canonical home (flat layout).
+- 4 Oct: post-processing step added (section 13): the owner's real iPhone recording as the chat→app transition (an Android version came first, then iPhone for relatability); the same 9:41 status bar and home bar across every section; still shots trimmed to reading time (min 2s), not a fixed cap; Free Trial card painted out. Applied to the 14 Mike Gomorrah batch videos (github.com/Chubyilo92/Mikegomo).
+
+## 13. Post-processing: iPhone transition, matching header/footer, reading-time pacing (4 Oct 2026)
+
+Every video gets this step after `build.py`. Script: `postprocess/postprocess.py` (self-contained; run from anywhere).
+`python3 postprocess/postprocess.py IN_DIR OUT_DIR V03 V80 ...` (IN_DIR holds the `V##.mp4` from build.py). About 60s per video. Needs `opencv-python-headless` as well as the build deps.
+
+**Assets (`postprocess/assets/`):**
+- `iphone_home_to_couplein.mp4`: the owner's real iPhone screen recording (592×1280, 2.9s): swipes across home pages, taps CoupleIn, iOS app-open zoom. Recorded on 4 Oct 2026. It replaced an Android recording because iPhone is more relatable to the audience. Real icons can only come from a real recording; never draw or copy brand app icons.
+- `statusbar_template.png`: the 9:41 status bar cut from the chat render (white on black). It's used as an alpha mask and recoloured black or white.
+- `couplein_logo.png`: the CoupleIn logo (hearts + wordmark) for the splash.
+
+**1. Transition (replaces the old still home screen + white splash at the start of the footage):**
+- Hard cut from the last chat frame into the iPhone recording at real speed (it's already quick, so no speed-up).
+- Kept source ranges: 0.00–0.78s (page swipes, landing on the CoupleIn page) and 1.65–2.50s (short hold, tap, app-open zoom). 0.78–1.65s is cut: an accidental swipe onto the Screen Time widget page and back, plus extra hold before the tap. The owner said holding on the CoupleIn page too long kills the pace.
+- The recording ends on a blank white app screen, so 10 frames of the CoupleIn splash (white + logo) are added after the zoom. Total ≈ 2.0s.
+- The recording is scaled to fit the 1920 height (888 wide) with soft blurred side fill, because cover-cropping would cut off the CoupleIn icon and the dock. During the zoom, the red recording pill and the app card's mini status bar are painted out.
+- If the owner sends a new recording: replace the asset, re-check `KEEP_RANGES` / `LAUNCH_FROM` by sampling frames (find the swipes, the still CoupleIn page, the tap and the zoom), and keep the hold on the CoupleIn page ≈0.5s.
+
+**2. Header and footer always match, start to finish (owner's rule):**
+- The same 9:41 status bar on every section: chat (already rendered), iPhone home screen (replaces the recording's own 10:32 + red pill), splash and app footage. It's black on light backgrounds and white on dark, with hysteresis so it never flickers.
+- App footage is shifted down 100px (top band filled with the footage's own top colour), so the app's header sits under the status bar like a real app and nothing overlaps. The bottom 100px of footage is lost, which is fine.
+- The same iPhone home bar (318×11px at y=1900, matching the real recording) is added to chat (white, under the keyboard), splash and app footage (black/white by background). The home screen has none, like a real iPhone.
+
+**3. Still shots are trimmed to reading time, not a fixed cap (owner's rule):**
+- Still runs (no pixel change for 1.5s+) in the footage are trimmed to `0.4s orient + caption words/4 per s (minus the time the same caption was already on screen, found by template-matching the caption box) + evidence words/4 per s + 0.3s beat`, and never below 2.0s. Shorter stills are left alone.
+- `postprocess/reading.json` holds the on-screen caption and the evidence the viewer must take in (event name, date, time, item) for each video. **For new videos, add their entry by reading the actual hold frame.** The on-screen captions often differ from `scenarios.json` (e.g. V80 shows "Friday. 2am. she's booked him in."). If an entry is missing, the script falls back to scenarios.json overlay/in_app and warns.
+- Results for batch 1 (old still → new): V03 5.3→3.2, V22 6.1→2.7, V62 4.4→2.0, V69 4.9→3.5, V74 2.8→2.0, V75 3.6→2.4, V79 5.2→2.6, V80 5.6→3.2, V81 6.3→2.0, V85 4.6→2.4; V25 2.6 kept.
+
+**4. Free Trial card:** the "🎉 Free Trial · N days left" card must never be visible. The script detects its progress bar in every footage frame and paints the card (and everything below it) with the background colour. In batch 1 it only appeared in V03.
+
+**5. Audio:** each kept piece keeps its own original audio, joined with 40ms crossfades, so key clicks, pops, the whoosh and the "faaaack" twist sting stay frame-synced. QC: no black frames, no audio drop-outs except quiet beats already in the music, file well under 19MB.
 
 ## Repo layout
-Everything is flat in the repo root: `SPEC.md`, `README.md`, `build.py`, `render.py`, `scenarios.json`, `index.html` (script browser), `CoupleIn_filming_guide.docx` + `plan.py` + `make.js` + `plan.json` (filming guide), `scenarios_source_*.py` and `blur_placeholder_render.py` (historical).
+`postprocess/` (section 13: `postprocess.py`, `reading.json`, `assets/`). Everything else is flat in the repo root: `SPEC.md`, `README.md`, `build.py`, `render.py`, `scenarios.json`, `index.html` (script browser), `CoupleIn_filming_guide.docx` + `plan.py` + `make.js` + `plan.json` (filming guide), `scenarios_source_*.py` and `blur_placeholder_render.py` (historical).
 
 ## 12. Open items
 
